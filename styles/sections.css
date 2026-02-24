@@ -1,0 +1,40 @@
+#intro {
+  background: url(/assets/images/Background_Intro.png) center/ cover no-repeat;
+  height: 750px;
+
+  .grid {
+    justify-items: center;
+    justify-content: center;
+    
+  }
+  
+   .grid:first-child img{
+    margin-top: 128px;
+  }
+    p:first-of-type{
+
+        margin-top: 64px;
+
+        font: var(--subtitle);
+        
+        span {
+            color: var(--red);
+        }
+    }
+
+    h1 {
+        margin-top: 8px;
+        font: var(--title-lg);
+    }
+
+    p:last-of-type {
+        max-width: 680px;
+        margin-top: 20px;
+    }
+  
+    & .grid:last-child img{
+    margin-top: 94px;
+  }
+}
+
+
