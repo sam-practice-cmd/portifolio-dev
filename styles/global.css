@@ -50,7 +50,7 @@ body {
   padding: 8px 16px;
   gap: 8px;
   border-radius: 999px;
-  
+
   background-color: var(--gray-400);
   font: var(--text-md);
   color: var(--gray-200);
@@ -58,5 +58,32 @@ body {
   img {
     width: 24px;
     height: 24px;
+  }
+}
+
+.card {
+  border-radius: 12px;
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+
+  img {
+    max-width: 306px;
+    max-height: 156px;
+    margin-top: 12px;
+    margin-inline: 12px;
+    border-radius: 8px;
+  }
+  p:first-of-type {
+    font: var(--title-sm);
+    color: var(--gray-100);
+    margin-inline: 16px;
+    margin-top: 24px;
+  }
+  p:last-of-type {
+    font: var(--text-sm);
+    color: var(--gray-200);
+    margin-inline: 16px;
+    margin-top: 8px;
   }
 }

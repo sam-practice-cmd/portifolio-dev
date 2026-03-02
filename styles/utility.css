@@ -1,15 +1,23 @@
 .flex {
-    display: flex;
+  display: flex;
 }
 .grid {
-    display: grid;
-    
+  display: grid;
 }
 
 .grid-flow-col {
-    grid-auto-flow: column;
+  grid-auto-flow: column;
+}
+
+.grid-center {
+  justify-items: center;
+  justify-content: center;
 }
 
 .gap-16 {
-    gap: 16px;
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
 }
