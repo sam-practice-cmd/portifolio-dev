@@ -67,6 +67,10 @@ body {
   height: 280px;
   background-color: var(--gray-400);
 
+  &:hover {
+    outline: 2px solid var(--gray-300);
+  }
+
   img {
     max-width: 306px;
     max-height: 156px;
@@ -84,6 +88,31 @@ body {
     font: var(--text-sm);
     color: var(--gray-200);
     margin-inline: 16px;
+    margin-top: 8px;
+  }
+}
+
+.serv {
+  border-radius: 12px;
+  width: 280px;
+  height: 155px;
+  outline: 2px solid var(--gray-500);
+
+  img {
+    margin-inline: 20px;
+    margin-top: 20px;
+  }
+  
+  p:first-of-type {
+    font: var(--title-sm);
+    color: var(--gray-100);
+    margin-inline: 20px;
+    margin-top: 20px;
+  }
+  p:last-of-type {
+    font: var(--text-sm);
+    color: var(--gray-200);
+    margin-inline: 20px;
     margin-top: 8px;
   }
 }

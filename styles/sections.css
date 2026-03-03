@@ -51,9 +51,37 @@
       color: var(--gray-100);
     }
   }
+  #cards {
+    grid-template-columns: repeat(3, 330px);
+    justify-content: center;
+    margin-bottom: 144px;
+  }
 }
 
-#cards {
-  grid-template-columns: repeat(3, 330px);
-  justify-content: center;
+#services {
+  background-color: var(--gray-600);
+
+  
+  & > div:first-of-type {
+    & p:first-of-type {
+      margin-top: 88px;
+
+      span {
+        font: var(--subtitle);
+        color: var(--red);
+      }
+    }
+
+    & p:nth-of-type(2) {
+      margin-top: 8px;
+      margin-bottom: 56px;
+      font: var(--title-md);
+      color: var(--gray-100);
+    }
+  }
+  #serv {
+    grid-template-columns: repeat(3, 280px);
+    justify-content: center;
+    padding-bottom: 120px;
+  }
 }
