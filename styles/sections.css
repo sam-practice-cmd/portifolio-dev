@@ -1,5 +1,5 @@
 #intro {
-  background: url(/assets/images/Background_Intro.png) center/ cover no-repeat;
+  background: url(./assets/images/Background_Intro.png) center/ cover no-repeat;
   height: 750px;
 
   .grid:first-child img {
@@ -86,7 +86,7 @@
 }
 
 #contacts {
-  background: url(/assets/images/Background_Contacts.png) center/ cover
+  background: url(./assets/images/Background_Contacts.png) center/ cover
     no-repeat;
   height: 750px;
 
