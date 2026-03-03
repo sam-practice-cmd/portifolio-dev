@@ -102,7 +102,7 @@ body {
     margin-inline: 20px;
     margin-top: 20px;
   }
-  
+
   p:first-of-type {
     font: var(--title-sm);
     color: var(--gray-100);
@@ -114,5 +114,37 @@ body {
     color: var(--gray-200);
     margin-inline: 20px;
     margin-top: 8px;
+  }
+}
+
+.links {
+  font: var(--text-md);
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  &:hover {
+    outline: 2px solid var(--blue);
+    .icon {
+      color: var(--blue);
+    }
   }
 }
